@@ -1,10 +1,10 @@
 # Tour of Heroes
 
-This project was created to help represent a fundamental app written with React. The heroes and villains theme is used throughout the app.
+This project was created to help represent a fundamental app written with Angular. The heroes and villains theme is used throughout the app.
 
 by [John Papa](http://twitter.com/john_papa)
 
-Comparative apps can be found here with [Angular](https://github.com/johnpapa/heroes-angular), [Svelte](https://github.com/johnpapa/heroes-svelte), and [Vue](https://github.com/johnpapa/heroes-vue)
+Comparative apps can be found here with [Svelte](https://github.com/johnpapa/heroes-svelte), [React](https://github.com/johnpapa/heroes-react), and [Vue](https://github.com/johnpapa/heroes-vue)
 
 ## Why
 
@@ -24,8 +24,8 @@ Hosted in [Azure](https://azure.microsoft.com/free/?WT.mc_id=javascript-0000-jop
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/johnpapa/heroes-react.git
-   cd heroes-react
+   git clone https://github.com/johnpapa/heroes-angular.git
+   cd heroes-angular
    ```
 
 1. Install the npm packages

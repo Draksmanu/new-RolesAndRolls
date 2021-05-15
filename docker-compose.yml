@@ -1,13 +1,11 @@
 version: '2.1'
 
 services:
-  heroes-react:
-    image: heroes-react
-    build:
-      context: .
-      args:
-        REACT_APP_API: ${REACT_APP_API}
-    env_file:
-      - .env.development
+  heroes-angular:
+    image: heroes-angular
+    build: .
+    environment:
+      NODE_ENV: production
+      WWW: ./public
     ports:
-      - 8626:8626
+      - 7626:7626
